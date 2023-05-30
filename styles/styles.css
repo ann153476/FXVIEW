@@ -145,6 +145,13 @@ a {
 .green-text {
   color: var(--green);
 }
+/* transition */
+.search,
+.login,
+.navbar-nav a,
+.navbar-nav svg {
+  transition: var(--transitionslow);
+}
 /* section */
 section {
   display: flex;
@@ -195,6 +202,14 @@ nav {
   color: var(--dark);
   font-size: 14px;
 }
+.navbar-nav a:hover .icon-Frame,
+.navbar-nav a:focus .icon-Frame {
+  fill: var(--green);
+}
+.navbar-nav a:hover,
+.navbar-nav a:focus {
+  color: var(--green);
+}
 header .right {
   display: flex;
   margin-left: auto;
@@ -204,7 +219,6 @@ header .right {
   align-items: center;
 }
 .Login {
-  transition: var(--transitionslow);
   padding: 10px;
 }
 .Login:hover,
@@ -212,6 +226,9 @@ header .right {
   color: var(--green);
 }
 
+.search:hover .search-svg {
+  fill: var(--green);
+}
 .rightTopBar {
   display: flex;
   align-items: center;
