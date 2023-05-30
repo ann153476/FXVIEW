@@ -149,7 +149,9 @@ a {
 .search,
 .login,
 .navbar-nav a,
-.navbar-nav svg {
+.navbar-nav svg,
+.bull-box li,
+.g {
   transition: var(--transitionslow);
 }
 /* section */
@@ -311,6 +313,15 @@ header .right {
   border-right: 1px solid var(--bordergreen);
   background-color: #ffffff;
   padding: 25px 20px 0;
+}
+.bull-box li:hover,
+.bull-box li:focus {
+  background-color: var(--green);
+  color: white;
+}
+.bull-box li:hover .g,
+.bull-box li:focus .g {
+  color: white;
 }
 .bull-box h2 {
   white-space: nowrap;
