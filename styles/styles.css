@@ -759,6 +759,9 @@ footer {
   border-top: 1px solid var(--bordercolor);
 }
 .footer-last-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   height: 55px;
   background: #191b1d;
   color: var(--light-gray);
