@@ -259,11 +259,11 @@ header .right {
   height: 535px;
 }
 .block {
-  width: 350px;
+  width: 33.33%;
   height: 100%;
 }
 .homeBannerRightBlock {
-  width: 650px;
+  width: 67.77%;
   height: 100%;
   position: relative;
 }
