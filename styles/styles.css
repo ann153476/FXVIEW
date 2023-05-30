@@ -152,7 +152,8 @@ a {
 .navbar-nav svg,
 .bull-box li,
 .g,
-.why-block2 li {
+.why-block2 li,
+.h-g {
   transition: var(--transitionslow);
 }
 /* section */
@@ -382,6 +383,10 @@ header .right {
 .why-block2 li:hover,
 .why-block2 li:focus {
   transform: scale(1.05);
+}
+.why-block2 li:hover .h-g,
+.why-block2 li:focus .h-g {
+  color: var(--green);
 }
 .why-block2 img {
   width: 100px;
