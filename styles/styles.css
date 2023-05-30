@@ -1,6 +1,3 @@
-.red {
-  border: 1px solid red;
-}
 /* font */
 * {
   font-family: "Roboto";
@@ -153,7 +150,9 @@ a {
 .bull-box li,
 .g,
 .why-block2 li,
-.h-g {
+.h-g,
+.green-stroke,
+.grey-text-block > div {
   transition: var(--transitionslow);
 }
 /* section */
@@ -596,10 +595,26 @@ header .right {
   flex-direction: column;
   justify-content: space-around;
 }
-.grey-text-block div {
+.grey-text-block > div {
+  position: relative;
   width: 450px;
   height: 150px;
   padding: 16px 24px;
+}
+.grey-text-block > div:hover .green-stroke {
+  opacity: 1;
+}
+.grey-text-block > div:hover {
+  background-color: var(--dark-hover);
+}
+.green-stroke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: var(--green);
+  opacity: 0;
 }
 .grey-text-block h3 {
   font-size: 17px;
