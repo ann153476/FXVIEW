@@ -151,7 +151,8 @@ a {
 .navbar-nav a,
 .navbar-nav svg,
 .bull-box li,
-.g {
+.g,
+.why-block2 li {
   transition: var(--transitionslow);
 }
 /* section */
@@ -377,6 +378,10 @@ header .right {
   padding: 16px 15px;
   width: 250px;
   background-color: #ffffff;
+}
+.why-block2 li:hover,
+.why-block2 li:focus {
+  transform: scale(1.05);
 }
 .why-block2 img {
   width: 100px;
